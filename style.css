@@ -107,3 +107,7 @@ section {
 .right h2 {
   font-size: 2.25rem;
 }
+
+.right div {
+  margin-bottom: 3.5rem;
+}
