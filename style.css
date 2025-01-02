@@ -38,21 +38,15 @@ h1 {
 }
 
 .row {
-    /* display: flex => flex container */
     display: flex;
     justify-content: space-between;
     
-    /* can't use yet */
-    /* gap: 100px; */
+    
+    gap: 30px;
 }
 
 .col {
-    /* these are now flex items */
     width: 100%;
-}
-
-.col + .col {
-    margin-left: 30px;
 }
 
 .hero {
@@ -88,4 +82,28 @@ h1 {
 .btn:hover,
 .btn:focus {
     opacity: .75; 
+}
+
+section {
+  padding: 50px 0;
+}
+
+.left {
+  color: #23424A;
+}
+
+.left h2 {
+  font-size: 2.25rem;
+  color: #136C72;
+}
+
+.right {
+  background: #136C72;
+  color: #FFF;
+  text-align: center;
+  padding: 30px;
+}
+
+.right h2 {
+  font-size: 2.25rem;
 }
